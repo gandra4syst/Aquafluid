@@ -208,36 +208,7 @@ jQuery(document).ready(function($) {
 
 
 	
-	//##########################################
-	// Create Combo Navi
-	//##########################################	
 		
-	// Create the dropdown base
-	$("<ul id='mobile-nav' />").prependTo("#mobile-nav-holder .wrapper");
-	
-	// Populate dropdown with menu items
-	$("#nav a").each(function() {
-	
-			var el = $(this);		
-			var label = $(this).parent().parent().attr('id');
-			var sub = (label == 'nav') ? '' : 'submenu';
-			
-		$('<li />').append(	
-			
-			 {"class"	: sub},
-			
-			$("<a />", {
-			 "href"		: el.attr("href"),
-			 "text"		: el.text(),
-			 "class"	: sub 
-			})
-			
-			
-		
-		).appendTo("#mobile-nav");
-		
-			
-	});
 	
 	
 	//##########################################

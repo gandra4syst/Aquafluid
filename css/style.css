@@ -329,12 +329,12 @@ nav a{
 	border-bottom: 1px solid #222;
 }
 
-#mobile-nav-holder li:last-child submenu,
-#mobile-nav-holder li submenu{
+#mobile-nav-holder li:last-child a,
+#mobile-nav-holder li > ul a{
 	border: none;
 }
 
-#mobile-nav-holder li .submenu{
+#mobile-nav-holder li > ul a{
 	color: #888888;
 	margin-left: 30px;
 }
