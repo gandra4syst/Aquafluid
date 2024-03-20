@@ -38,10 +38,8 @@ html[xmlns] .slides {display: block;}
 	background: #888888;
 	position: relative;
 	zoom: 1;
-	
-	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,.5); 
-	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,.5); 
 	box-shadow: 0px 0px 4px rgba(0,0,0,.5); 
+	/* -moz-box-shadow: 0px 0px 4px rgba(0,0,0,.5);  */
 }
 
 .home-slider {
@@ -54,25 +52,18 @@ html[xmlns] .slides {display: block;}
 .flex-container {zoom: 1; position: relative;}
 
 /* Caption style */
-/* IE rgba() hack */
 .flex-caption {
-	background:none; 
-	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); 
-	zoom: 1;
-}
-
-.flex-caption {
-	width: 50%; 
-	padding: 2%; 
+	width: 30%; 
+	padding: 1rem; 
 	position: absolute; 
-	left: 10px; 
+	left: 20px; 
 	bottom: 10px; 
-	background: rgba(0,0,0,.8); 
+	background: rgba(0,0,0,.2); 
 	color: #fff; 
-	text-shadow: 0 -1px 0 rgba(0,0,0,.3); 
+	/* text-shadow: 0 -1px 0 rgba(0,0,0,.3);  */
 	font-size: 14px; 
 	line-height: 18px;
+	border-radius: 7px;
 }
 
 /* Direction Nav */
@@ -120,7 +111,7 @@ html[xmlns] .slides {display: block;}
 	margin: 0 0 0 5px; 
 	display: inline-block; 
 	zoom: 1; 
-	*display: inline;
+	/* display: inline; */
 }
 
 .flex-control-nav li:first-child {margin: 0;}
@@ -162,7 +153,6 @@ html[xmlns] .slides {display: block;}
 	margin-bottom: 60px;
 	position: relative;
 }
-
 
 .project-slider .flex-direction-nav{
 	display: none;

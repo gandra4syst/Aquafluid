@@ -3,13 +3,11 @@
 @import url('social-icons.css');
 @import url('comments.css');
 @import url('elements.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600&display=swap');
 
 
 /* GENERAL ------------------------------------------------------------*/
-
-
 .clearfix{ clear:both; }
-
 
 .wrapper,
 #main{
@@ -29,10 +27,6 @@ body p{
 body a{
 	text-decoration: none;
 	color: #444;
-	
-	-webkit-transition: color 0.3s ease;
-	-moz-transition: color 0.3s ease;
-	-o-transition: color 0.3s ease;
 	transition: color 0.3s ease;
 }
 
@@ -49,8 +43,8 @@ body a:hover{
 #logo:hover{ opacity: 0.8;}
 
 .headline{
-	font-family: Allan, helvetica, arial, sans-serif;
-	font-size: 36px;
+	font-family: 'Poppins', sans-serif;;
+	font-size: 2.1rem;
 	line-height: 1.5em;
 	text-align: center;
 	padding: 20px 0px;
@@ -277,7 +271,6 @@ nav a{
 	background: #1c1d1d;
 }
 
-
 #nav>li ul li a{
 	display: block;
 	padding: 10px 15px;
@@ -402,22 +395,14 @@ nav a{
 
 /* MAIN ------------------------------------------------------------*/
 
-#main{
-		
-}
-
 #main #content{
 	position: relative;
 	display: block;
 	width: 852px;
 	float: left;
-	
 	background: #f5f5f5;
-	
-	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,.1); 
-	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,.1); 
 	box-shadow: 0px 0px 4px rgba(0,0,0,.1);
-	
+	/* -moz-box-shadow: 0px 0px 4px rgba(0,0,0,.1);  */
 }
 
 .shadow-main{
@@ -467,10 +452,8 @@ nav a{
 	display: block;
 	background: url(../img/plus.png) no-repeat center center;
 	margin-bottom: 21px;
-	
-	-webkit-box-shadow: 3px 3px 0px rgba(0,0,0,.2); 
-	-moz-box-shadow: 3px 3px 0px rgba(0,0,0,.2); 
-	box-shadow: 3px 3px 0px rgba(0,0,0,.2); 
+	box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+	/* -moz-box-shadow: 3px 3px 0px rgba(0,0,0,.2);  */
 }
 
 .featured figure .thumb:hover img{
@@ -517,11 +500,10 @@ nav a{
 	background: url(../img/ribbon-link.png) no-repeat top left;
 	width: 33px;
 	height: 61px;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
+	
 }
 
 .featured figure .link:hover{
@@ -550,11 +532,9 @@ nav a{
 	float: left;
 	text-decoration: none;
 	color: #888;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 .project-heading .launch:hover{
@@ -567,7 +547,6 @@ nav a{
 	width: 528px;
 	margin-bottom: 40px;
 }
-
 
 .project-info{
 	float: left;
@@ -590,11 +569,9 @@ nav a{
 .project-pager a{
 	text-decoration: none;
 	color: #444;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 .project-pager a:hover{
@@ -640,10 +617,8 @@ nav a{
 	display: block;
 	background: url(../img/plus.png) no-repeat center center;
 	margin-bottom: 21px;
-	
-	-webkit-box-shadow: 3px 3px 0px rgba(0,0,0,.2); 
-	-moz-box-shadow: 3px 3px 0px rgba(0,0,0,.2); 
 	box-shadow: 3px 3px 0px rgba(0,0,0,.2); 
+	/* -moz-box-shadow: 3px 3px 0px rgba(0,0,0,.2);  */
 }
 
 .related-projects .thumb:hover img{
@@ -666,11 +641,9 @@ nav a{
 	text-align: center;
 	display: block;
 	margin-bottom: 14px;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 .related-projects .heading:hover{
@@ -685,21 +658,17 @@ aside.retractil{
 	left: 0px;
 	background: #eaeaea;
 	width: 276px;
-	
-	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.5); 
-	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.5); 
 	box-shadow: 0px 0px 2px rgba(0,0,0,.5); 
+	/* -moz-box-shadow: 0px 0px 2px rgba(0,0,0,.5);  */
 }
 
 aside.retractil #sidebar-opener{
 	cursor: pointer;
 	margin: 15px 24px;
 	color: #444;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 aside.retractil #sidebar-opener:hover{
@@ -712,11 +681,9 @@ aside.retractil #sidebar-closer{
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 aside.retractil #sidebar-closer:hover{
@@ -734,11 +701,9 @@ aside.retractil #sidebar-content{
 aside.retractil #sidebar-content a{
 	text-decoration: none;
 	color: #888;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+ 	-o-transition: all 0.3s ease; */
 }
 
 aside.retractil #sidebar-content a:hover{
@@ -765,18 +730,15 @@ aside.retractil #sidebar-content a:hover{
 	line-height: 0em;
 	display: block;
 	background: url(../img/plus.png) no-repeat center center;
-	-webkit-box-shadow: 3px 3px 0px rgba(0,0,0,.2); 
-	-moz-box-shadow: 3px 3px 0px rgba(0,0,0,.2); 
 	box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+	/* -moz-box-shadow: 3px 3px 0px rgba(0,0,0,.2);  */
 }
 
 .home-gallery img{
 	max-width: 100%;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 .home-gallery .thumb:hover img{
@@ -804,11 +766,9 @@ aside.retractil #sidebar-content a:hover{
 	font-size: 13px;
 	color: #444;
 	text-decoration: none;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 .text-posts .heading:hover{
@@ -846,10 +806,9 @@ aside.retractil #sidebar-content a:hover{
 #posts-list .feature-image img,
 #post-content .feature-image img{
 	max-width: 100%;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 #posts-list .feature-image:hover img,
@@ -863,11 +822,9 @@ aside.retractil #sidebar-content a:hover{
 	text-decoration: none;
 	color: #444;
 	line-height: 1em;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 #posts-list .post-heading:hover{
@@ -887,11 +844,9 @@ aside.retractil #sidebar-content a:hover{
 #post-content .meta a{
 	color: #444;
 	text-decoration: none;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 #posts-list .meta a:hover,
@@ -909,14 +864,12 @@ aside.retractil #sidebar-content a:hover{
 	text-decoration: none;
 	color: #888;
 	border: 1px solid #ccc;
-	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.3); 
-	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.3); 
-	box-shadow: 0px 0px 2px rgba(0,0,0,.3); 
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
+	box-shadow: 0px 0px 2px rgba(0,0,0,.3);
 	transition: all 0.3s ease;
+	/* -moz-box-shadow: 0px 0px 2px rgba(0,0,0,.3);  */
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease */;
+	
 }
 
 #posts-list .read-more:hover{
@@ -937,26 +890,25 @@ aside.retractil #sidebar-content a:hover{
 #sidebar a{
 	color: #444;
 	text-decoration: none;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
-#sidebar a:hover{ color: #fe8300; }
+#sidebar a:hover{
+	 color: #fe8300;
+}
 
 #sidebar h4{
 	margin-bottom: 10px;
 }
 
 #sidebar .block{
-	padding: 16px;
 	background: #eaeaea;
-	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.2); 
-	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.2); 
-	box-shadow: 0px 0px 2px rgba(0,0,0,.2); 
+	box-shadow: 0px 0px 2px rgba(0,0,0,.2);
 	margin-bottom: 24px;
+	padding: 16px;
+	/* -moz-box-shadow: 0px 0px 2px rgba(0,0,0,.2);  */
 }
 
 
@@ -988,11 +940,9 @@ aside.retractil #sidebar-content a:hover{
 	width: 20px;
 	border: 1px solid #ccc;
 	line-height: 20px;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	/* -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; */
 }
 
 .pager li.active a,
@@ -1008,8 +958,6 @@ aside.retractil #sidebar-content a:hover{
 
 
 /* CONTACT ------------------------------------------------------------*/
-
-
 #map{
 	display: block;
 	height: 300px;
@@ -1031,7 +979,6 @@ aside.retractil #sidebar-content a:hover{
 
 
 /* FOOTER ------------------------------------------------------------*/
-
 footer{
 	background: 
 		url(../img/footer-line.png) repeat-x top left,
@@ -1045,10 +992,6 @@ footer{
 footer a{
 	color: #444;
 	text-decoration: none;
-	
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 
@@ -1082,15 +1025,8 @@ footer .wrapper{
 	margin-bottom: 21px;
 }
 
-#footer-cols>li.first-col{
-	
-}
-
-#footer-cols>li.second-col{
-
-}
-
-#footer-cols>li.third-col{ margin-right: 0px; }
+#footer-cols>li.third-col{
+	margin-right: 0px; }
 
 footer #to-top{
 	display: none;
@@ -1122,10 +1058,8 @@ footer #to-top:hover{ opacity: 0.7 }
 	line-height: 0em;
 	background: #fff;
 	padding: 3px;
-	
-	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,.3); 
-	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,.3); 
 	box-shadow: 0px 0px 4px rgba(0,0,0,.3); 
+	/* -moz-box-shadow: 0px 0px 4px rgba(0,0,0,.3);  */
 }
 
 .recent-post .post-head{
@@ -1135,7 +1069,6 @@ footer #to-top:hover{ opacity: 0.7 }
 	font-size: 13px;
 	line-height: 1.5em;
 }
-
 
 .recent-post .post-head span{
 	display: block;
